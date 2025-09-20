@@ -39,8 +39,7 @@
       <!-- CART (desktop) -->
       <aside class="cart-panel" id="cartPanel" aria-label="Cart" role="complementary">
         <div class="cart-header">
-          <div style="font-weight:700">My Cart</div>
-          <div id="cartTotalShort" class="muted small">₹0</div>
+          <div style="font-weight:700">My Cart (<span id="cartQty">0</span> items)</div>
         </div>
 
         <div class="cart-items" id="cartItems" aria-live="polite">
@@ -70,32 +69,28 @@
 
   <div class="drawer-backdrop" id="drawerBackdrop" style="display:none"></div>
 
-  <!-- Mobile cart drawer (single unique id) -->
+  <!-- Mobile cart drawer -->
   <div class="cart-drawer" id="cartDrawer" aria-hidden="true" role="dialog" aria-label="Shopping cart">
     <div class="drawer-handle" aria-hidden="true"></div>
 
     <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 8px">
-      <strong>My Cart</strong>
-      <div id="drawerTotal" style="font-weight:800;color:var(--accent)">₹0</div>
+      <strong>My Cart (<span id="drawerQty">0</span> items)</strong>
     </div>
 
-    <!-- Mobile cart items container (unique id) -->
     <div id="mobileCartItems" class="cart-items-mobile" aria-live="polite" style="padding:8px">
       <div class="muted small">Your cart is empty</div>
     </div>
 
     <div style="padding:8px;display:flex;justify-content:space-between;align-items:center;gap:8px">
       <div class="small">Total:</div>
-      <div style="font-weight:800;color:var(--accent)" id="cartTotalMobile">₹0</div>
+      <div style="font-weight:800;color:var(--accent)" id="drawerTotal">₹0</div>
     </div>
 
     <div style="padding:8px">
-      <!-- Mobile checkout button has its own unique id -->
       <button id="mobileCheckout" type="button">Checkout</button>
     </div>
   </div>
 
-  <!-- Optional hidden input where customer can add phone number before checkout -->
   <div style="position:fixed;left:-9999px;top:-9999px" aria-hidden="true">
     <input id="customer-phone" type="tel" placeholder="Your phone (optional)" />
   </div>
