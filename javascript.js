@@ -383,3 +383,19 @@ window.__ws = {
   buildWhatsAppMessage: buildWhatsAppMessage,
   openWhatsAppCheckout: openWhatsAppCheckout
 };
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('checkoutBtn');
+  if (!btn) return;
+
+  function onCheckout(e){
+    e.preventDefault();
+    e.stopPropagation();
+    console.log('checkout triggered', e.type);
+    // <<-- put your checkout logic here --
+  }
+
+  // Attach multiple types so mobile definitely catches it
+  ['pointerup','touchend','click'].forEach(ev => 
+    btn.addEventListener(ev, onCheckout, { passive: false })
+  );
+});
