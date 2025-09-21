@@ -16,7 +16,7 @@ var PRODUCTS = [
   { id: 'p7',  name: 'Holi Colors Sticker Pack (30 pcs)',         price: 200, img: 'images/p7.png' },
   { id: 'p8',  name: 'Independence Day Sticker Pack (10 pcs)',    price: 80,  img: 'images/p8.png' },
   { id: 'p9',  name: 'Ganesh Chaturthi Sticker Pack (12 pcs)',    price: 110, img: 'images/p9.png' },
-  { id: 'p10', name: 'Navratri Sticker Pack (18 pcs)',            price: 160, img: 'images/1.png' },
+  { id: 'p10', name: 'Navratri Sticker Pack (18 pcs)',            price: 160, img: 'images/hanuman.png' },
   { id: 'p11', name: 'Karva Chauth Sticker Pack (8 pcs)',         price: 70,  img: 'images/2.png' },
   { id: 'p12', name: 'Eid Mubarak Sticker Pack (20 pcs)',         price: 140, img: 'images/3.png' },
   { id: 'p13', name: "Valentine's Day Sticker Pack (15 pcs)",     price: 120, img: 'images/4.png' },
