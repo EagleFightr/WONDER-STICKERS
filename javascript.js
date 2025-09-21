@@ -26,15 +26,15 @@ var PRODUCTS = [
   { id: 'p17', name: 'Cuet diya,s sticker pack 6*6 cm (20 pcs)',  price: 99, img: 'images/gannu.png' },
   { id: 'p18', name: 'cuet Maa lakshmion lotus 15*10 cm (2 pcs)', price: 59, img: 'images/lak.png' },
   { id: 'p19', name: 'cuet Maa lakshmion lotus 15*10 cm (2 pcs)', price: 59, img: 'images/maa.png' },
-  { id: 'p20', name: 'Lohri Sticker Pack (12 pcs)',               price: 90,  img: 'images/cuet1.png' },
-  { id: 'p21', name: 'Pongal Sticker Pack (12 pcs)',              price: 90,  img: 'images/q1.png' },
-  { id: 'p22', name: 'Makar Sankranti Sticker Pack (15 pcs)',     price: 100, img: 'images/q2.png' },
-  { id: 'p23', name: 'Baisakhi Sticker Pack (10 pcs)',            price: 85,  img: 'images/q3.png' },
-  { id: 'p24', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/q4.png' },
-  { id: 'p25', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/q5.png' },
-  { id: 'p26', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/q6.png' },
-  { id: 'p27', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/q7.png' },
-  { id: 'p28', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/q8.png' }
+  { id: 'p20', name: 'cuet baaL Gopal 6*5 CM (9 pcs)',            price: 45,  img: 'images/cuet1.png' },
+  { id: 'p21', name: 'lakshmi charan 6*6 cm  (2 set)',            price: 90,  img: 'images/q1.png' },
+  { id: 'p22', name: 'Kalash sticker 15*15 cm  (1 pcs)',          price: 30, img: 'images/q2.png' },
+  { id: 'p23', name: 'Om sticker 6*6 cm  (20 pcs)',               price: 99,  img: 'images/q3.png' },
+  { id: 'p24', name: 'Cuet gannu sticker 15*15 cm (2 pcs)',       price: 90,  img: 'images/q4.png' },
+  { id: 'p25', name: 'Hanuman sticker 15*15 cm  (1 pcs)',         price: 30,  img: 'images/q5.png' },
+  { id: 'p26', name: 'Cuet gannu sticker 6*6 cm (12 pcs)',        price: 59,  img: 'images/q6.png' },
+  { id: 'p27', name: 'sathiya with ganesh  6*6 cm (12 pcs)',      price: 59,  img: 'images/q7.png' },
+  { id: 'p28', name: 'Om black 6*6 cm Pack (12 pcs)',             price: 59,  img: 'images/q9.png' }
 ];
 
 window.PRODUCTS = PRODUCTS;
