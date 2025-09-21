@@ -26,11 +26,15 @@ var PRODUCTS = [
   { id: 'p17', name: 'Cuet diya,s sticker pack 6*6 cm (20 pcs)',  price: 99, img: 'images/gannu.png' },
   { id: 'p18', name: 'cuet Maa lakshmion lotus 15*10 cm (2 pcs)', price: 59, img: 'images/lak.png' },
   { id: 'p19', name: 'cuet Maa lakshmion lotus 15*10 cm (2 pcs)', price: 59, img: 'images/maa.png' },
-  { id: 'p20', name: 'Lohri Sticker Pack (12 pcs)',               price: 90,  img: 'images/11.png' },
-  { id: 'p21', name: 'Pongal Sticker Pack (12 pcs)',              price: 90,  img: 'images/12.png' },
-  { id: 'p22', name: 'Makar Sankranti Sticker Pack (15 pcs)',     price: 100, img: 'images/13.png' },
-  { id: 'p23', name: 'Baisakhi Sticker Pack (10 pcs)',            price: 85,  img: 'images/14.png' },
-  { id: 'p24', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/14.png' }
+  { id: 'p20', name: 'Lohri Sticker Pack (12 pcs)',               price: 90,  img: 'images/cuet1.png' },
+  { id: 'p21', name: 'Pongal Sticker Pack (12 pcs)',              price: 90,  img: 'images/q1.png' },
+  { id: 'p22', name: 'Makar Sankranti Sticker Pack (15 pcs)',     price: 100, img: 'images/q2.png' },
+  { id: 'p23', name: 'Baisakhi Sticker Pack (10 pcs)',            price: 85,  img: 'images/q3.png' },
+  { id: 'p24', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/q4.png' },
+  { id: 'p25', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/q5.png' },
+  { id: 'p26', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/q6.png' },
+  { id: 'p27', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/q7.png' },
+  { id: 'p28', name: 'Republic Day Sticker Pack (12 pcs)',        price: 95,  img: 'images/q8.png' }
 ];
 
 window.PRODUCTS = PRODUCTS;
