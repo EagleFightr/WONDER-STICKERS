@@ -194,3 +194,8 @@ transition:height .25s ease;box-shadow:0 -8px 30px rgba(0,0,0,0.12)}
   .cart-items { max-height:60vh; }
 
 }
+.mark-logo {
+  width: 48px;   /* or 60px if you want slightly bigger */
+  height: auto;  /* keeps proportions */
+  border-radius: 8px; /* optional, if you want rounded corners */
+}
